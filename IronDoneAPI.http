@@ -1,0 +1,6 @@
+@IronDoneAPI_HostAddress = http://localhost:5147
+
+GET {{IronDoneAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
