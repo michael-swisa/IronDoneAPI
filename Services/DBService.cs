@@ -2,8 +2,10 @@
 
 namespace IronDoneAPI.Services
 {
-    public class DBService
+    public class DbService
     {
-        public static List<Attack> Attacks = new List<Attack>();
+        public static List<Attack> AttacksList = new List<Attack>();
+
+        public static List<Person> PersonesList = new List<Person>();
     }
 }
